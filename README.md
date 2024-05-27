@@ -10,6 +10,7 @@ docker compose up -d
 ```sh
 kubectl create -f semaphore-postgres-persistentvolumeclaim.yaml
 kubectl create -f postgres-deployment.yaml
+kubectl create -f postgres-service.yaml
 kubectl create -f semaphore-deployment.yaml
 kubectl create -f semaphore-service.yaml
 ```
